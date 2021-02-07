@@ -1,0 +1,88 @@
+.post_image {
+    width: 100%;
+    object-fit: contain;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+
+}
+
+.post_header {
+    display: flex; 
+    /* flex will by deafult put all children of the div into a row */
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.post_header_info {
+    display: flex;
+    align-items: center;
+}
+
+.post_avatar {
+    margin-right: 10px;
+}
+
+.post_footer {
+    padding: 10px;
+}
+
+.post {
+    max-width: 600px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.post_comments {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.post_comment_section {
+    display: flex;
+    margin-top: 10px;
+}
+
+.comment_input {
+    /* in flex, child with flex:1 will atke most of the space. and child with flex:0 will take rest */
+    flex: 1; 
+    border-top: 1px solid lightgray;
+
+}
+
+.comment_button {
+    /* in flex, child with flex:1 will atke most of the space. and child with flex:0 will take rest */
+    flex : 0;
+    border: none;
+    border: 1px solid lightgray;
+}
+
+.post_options_modal {
+    display: flex;
+    flex-direction: column;
+    radius: 0 !important;
+}
+
+.edit_modal_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.edit_modal_image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.edit_modal_caption {
+    width: 100%;
+    padding-top: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

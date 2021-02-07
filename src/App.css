@@ -1,0 +1,11 @@
+.App {
+  background-color: #FAFAFA;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}

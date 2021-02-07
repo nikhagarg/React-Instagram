@@ -1,0 +1,36 @@
+.app_header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px lightgray solid;
+    background-color: white;
+    padding: 20px;
+    object-fit: contain;
+    display: flex;
+}
+
+.header_login_container {
+    display: flex;
+    align-items: center;
+}
+
+#header_avatar {
+    height: 20px;
+    width: 20px;
+    font-size: 1rem;
+    margin: 5px;
+
+}
+
+.header_modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.app_header_img {
+    object-fit: contain;
+}
+
+.header_button {
+    margin-left: auto !important;
+}
