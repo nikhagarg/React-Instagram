@@ -5,7 +5,7 @@
 This project was created using React.js and Firebase.
 
 Firebase Authentication is used for Signup/Signin. 
-Visit the link and sign up for a new account. Use any email eg. nikha@test.com and Select a username for your profile.
+Visit the link and sign up for a new account. Use any email eg. nikha@test.com and enter a Username for your profile.
 Click Add Post button on header to create a post.
 
 
