@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Instagram Clone
+
+### [LIVE DEMO](https://niks-insta-clone.web.app/)
+
+This project was created using React.js and Firebase.
+
+Firebase Authentication is used for Signup/Signin. 
+Visit the link and sign up for a new account. Use any email eg. nikha@test.com and Select a username for your profile.
+Click Add Post button on header to create a post.
+
+
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -30,9 +42,6 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-
-
-### See the [LIVE DEMO](https://niks-insta-clone.web.app/) here.
 
 
 
